@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.ofh {
+    overflow: hidden;
+}
+
+/* 컨텐츠 높이가 없을경우 사용 */
+.h300 {
+    height: 300px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* d-flex 사용해서. */
+.w1200 {
+    width: 1200px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.swiper-wrapper {
+    width: 100000px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
