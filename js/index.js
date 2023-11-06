@@ -6,12 +6,12 @@ $(document).ready(function () {
     //$(옮길태그).appendTo($(부모가될 태그))
 
 
-    const aniw = $(".swiper-slide").width();//$(".swiper-wrapper").css("width");
+    const aniw = $(".swiper-slide").height();//$(".swiper-wrapper").css("width");
 
     setInterval(function () {
-        $(".swiper-wrapper").animate({ "marginLeft": -aniw }, 400, function () {
+        $(".swiper-wrapper").animate({ "marginTop": -aniw }, 400, function () {
             $(".swiper-slide").eq(0).appendTo($(".swiper-wrapper"))
-            $(".swiper-wrapper").css("marginLeft", 0)
+            $(".swiper-wrapper").css("marginTop", 0)
         })
     }, 3000)
 })
